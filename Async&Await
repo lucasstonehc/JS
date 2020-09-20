@@ -1,1 +1,18 @@
 
+So today we are gonna talk about the Async & Await.
+
+First of all, we need understand why we used these things.
+
+Let´s imagine that you need get some information some API or whatever, and this servive could be online or not and if it is online the time to get this information need 
+more time than normal... Then you need to used the Async e Await ideias to get a better peform to you software, application or ...
+
+When you put the Async keyword before a function so you are saying that function now works on mood asynchronous.
+
+async function getUser(){
+  // here you need wait to promise from something for this you need use the await keyword.
+}
+
+async function getUser(){
+  const response = await myPromise();
+}
+
